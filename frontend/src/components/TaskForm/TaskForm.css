@@ -1,0 +1,28 @@
+.add-task {
+  font-family: 'Finlandica', sans-serif;
+}
+
+.form-label {
+  font-size: 1.2rem;
+}
+
+.priority {
+  margin-left: 1rem;
+  width: 15%;
+}
+
+.due-date {
+  display: block;
+  width: 80%;
+}
+
+.form-control.info {
+  resize: none;
+  width: 80%;
+}
+
+.form-label.char-counter {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: grey;
+}

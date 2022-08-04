@@ -1,0 +1,80 @@
+.task-container {
+  width: 85%;
+  margin: 0.8rem auto;
+  padding: 0.5rem 1rem;
+  padding-top: 1rem;
+  border-radius: 20px;
+  font-family: 'Finlandica', sans-serif;
+}
+
+.priority-high {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.priority-medium {
+  background-color: rgba(255, 128, 0, 0.8);
+}
+
+.priority-low {
+  background-color: rgba(110, 150, 1, 0.7);
+}
+
+.task-container .task-name {
+  font-size: 1.7rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.task-detail h4 {
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.task-priority {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+}
+
+.task-priority span {
+  font-style: italic;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.priority-high .task-priority span {
+  color: rgb(255, 101, 101);
+}
+
+.priority-medium .task-priority span {
+  color: orange;
+}
+
+.priority-low .task-priority span {
+  color: lightgreen;
+}
+
+.task-due-date {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.task-notes h4 {
+  font-size: 1.2rem;
+}
+
+.task-notes p {
+  word-wrap: break-word;
+}
+
+.task-actions {
+  text-align: right;
+  color: #eee;
+  cursor: default;
+}
+
+.task-actions span {
+  cursor: pointer;
+}
+
+.task-actions span:hover {
+  color: rgba(255, 255, 255, 0.6);
+}

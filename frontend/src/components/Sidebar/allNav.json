@@ -1,0 +1,50 @@
+[
+  {
+    "key": "all",
+    "name": "All",
+    "path": "/all",
+    "icon": "clipboard-list"
+  },
+  {
+    "key": "ongoing",
+    "name": "Ongoing",
+    "path": "/ongoing",
+    "icon": "person-running"
+  },
+  {
+    "key": "completed",
+    "name": "Completed",
+    "path": "/completed",
+    "icon": "square-check"
+  },
+  {
+    "key": "late",
+    "name": "Late",
+    "path": "/late",
+    "icon": "triangle-exclamation"
+  },
+  {
+    "key": "today",
+    "name": "Today",
+    "path": "/today",
+    "icon": "calendar-day"
+  },
+  {
+    "key": "tomorrow",
+    "name": "Tomorrow",
+    "path": "/tomorrow",
+    "icon": "calendar-day"
+  },
+  {
+    "key": "next-7-days",
+    "name": "Next 7 Days",
+    "path": "/next-7-days",
+    "icon": "calendar-day"
+  },
+  {
+    "key": "add-task",
+    "name": "Add New Task",
+    "path": "/add-task",
+    "icon": "plus"
+  }
+]

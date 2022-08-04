@@ -1,0 +1,67 @@
+.tabs {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(236, 195, 202, 0.5), rgba(238, 238, 238, 0.5));
+  box-shadow: 2px 0 5px 2px rgba(34, 34, 34, 0.5);
+  position: fixed;
+}
+
+.nav-pills .nav-link {
+  margin-left: 0.7rem;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.tabs .nav-pills .nav-link.active {
+  color: white;
+  background-color: rgba(118, 86, 92, 0.5);
+}
+
+.nav-pills .nav-link:hover {
+  color: #222;
+  background-color: rgba(207, 153, 162, 0.5);
+}
+
+.username {
+  margin-top: 2rem;
+}
+
+.nav-pills .username .nav-link {
+  cursor: default;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+  background-color: rgba(207, 153, 162, 0.5);
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.nav-all, .nav-today, .nav-add-task {
+  margin-top: 0.3rem;
+}
+
+.separator-line {
+  width: 95%;
+  margin: 0;
+  margin-top: 1.5rem;
+  margin-left: 0.7rem;
+  border: 1px solid #222;
+}
+
+.nav-link .fas {
+  margin-right: 0.5rem;
+}
+
+.fa-right-from-bracket {
+  color: rgba(80, 80, 80, 0.8);
+  position: absolute;
+  top: 32%;
+  right: 0;
+}
+
+.fa-right-from-bracket:hover {
+  color: rgba(80, 80, 80, 0.5);
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.main.col {
+  margin: 2rem;
+  margin-left: 25rem;
+}

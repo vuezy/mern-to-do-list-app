@@ -1,0 +1,15 @@
+.auth-form {
+  position: fixed;
+  top: 15vh;
+  left: 25vw;
+  font-family: 'Varela Round', sans-serif;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  background-image: radial-gradient(farthest-corner at left, white, rgba(34, 34, 34, 0.2));
+  box-shadow: 4px 3px 2px 2px rgba(34, 34, 34, 0.6);
+  width: 50%;
+}
+
+.auth-form h1 {
+  font-family: 'Finlandica', sans-serif;
+}

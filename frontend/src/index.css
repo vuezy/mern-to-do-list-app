@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgba(236, 195, 202, 0.5), white 60%, rgba(236, 195, 202, 0.5))
+}
